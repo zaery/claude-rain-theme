@@ -1,0 +1,5 @@
+{
+  "name": "claude-rain-theme",
+  "owner": { "name": "zaery" },
+  "plugins": [{ "name": "rain", "source": "./" }]
+}
