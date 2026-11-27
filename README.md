@@ -26,8 +26,6 @@ claude plugin install rain --marketplace zaery/claude-rain-theme
 
 In the desktop app, where `/plugin` doesn't run: click **+** next to the prompt box, then **Plugins**, **Add marketplace** with `zaery/claude-rain-theme`, then **Add plugin**.
 
-This repository is private: installing it needs read access on GitHub and a git credential for github.com on your machine (an SSH key, or `gh auth login` then `gh auth setup-git`). The install never prompts for one.
-
 ## Tweaking it
 
 Everything lives in `hooks/register.tsx`:
@@ -36,3 +34,7 @@ Everything lives in `hooks/register.tsx`:
 - The `<style>` block in `SCENE` sets rain color and opacity for light and dark mode.
 - `STORM_LIGHT` / `STORM_DARK` are the tints the panels pulse between; `STEPS` and `TICK_MS` set the pace.
 - `SOUND` holds the ambience and cues.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
